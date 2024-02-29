@@ -21,3 +21,12 @@ Virtual bookshelf: Organize your reading list for easy access.
 Watchlist manager: Keep track of movies and series you want to watch.
 
 Built-in blog: Share your thoughts, experiences, and memories with text and photos.
+
+## Daily Plan
+
+Day 1:- Intialising GitHub Repository, adding README file for a brief introduction to the Project.
+
+Day 2:- Learning how to connect different applications to my app.
+
+Day 3:- Creating a basic UI for my application.
+
