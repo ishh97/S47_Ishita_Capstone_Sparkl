@@ -23,6 +23,8 @@ Built-in blog: Share your thoughts, experiences, and memories with text and phot
 
 Day 1:- Intialising GitHub Repository, adding README file for a brief introduction to the Project.
 
-Day 2:- Learning how to connect different applications to my app.
+Day 2:- Will add basic Backend to my application.
 
 Day 3:- Creating a basic UI for my application.
+
+Day 4:- Connecting server from the database.
