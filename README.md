@@ -31,4 +31,3 @@ Day 2:- Will add basic Backend to my application.
 Day 3:- Creating a basic UI for my application.
 
 Day 4:- Connecting server from the database.
-
