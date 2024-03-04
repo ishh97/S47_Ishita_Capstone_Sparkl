@@ -15,8 +15,11 @@ In essence, Sparkl is your one-stop destination to gather and organize all your 
 ## Features
 
 Centralized hub: Curate your favorite apps like Spotify and YouTube for easy access.
+
 Virtual bookshelf: Organize your reading list for easy access.
+
 Watchlist manager: Keep track of movies and series you want to watch.
+
 Built-in blog: Share your thoughts, experiences, and memories with text and photos.
 
 ## Daily Plan
