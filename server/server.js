@@ -48,5 +48,5 @@ app.get('/watchList', (req, res) => {
 })
 
 app.listen(2004, () => {
-    console.log('🚀 Server is running on port 2004');
+    console.log('🚀 Server is running on port 2004 !!!');
 });
