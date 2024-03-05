@@ -22,6 +22,12 @@ Watchlist manager: Keep track of movies and series you want to watch.
 
 Built-in blog: Share your thoughts, experiences, and memories with text and photos.
 
+## Deployed Link  
+
+Fronted Link :- [https://s47-ishita-capstone-sparkl.pages.dev]
+
+Backend Link :- [https://s47-ishita-capstone-sparkl.onrender.com]
+
 ## Daily Plan
 
 Day 1:- Intialising GitHub Repository, adding README file for a brief introduction to the Project.
@@ -30,4 +36,6 @@ Day 2:- Will add basic Backend to my application.
 
 Day 3:- Creating a basic UI for my application.
 
-Day 4:- Connecting server from the database.
+Day 4:- Connecting server from the database and Creating Schemas.
+
+Day 5:- Deploying the Frontend on cloudflare and Backend on Render.
