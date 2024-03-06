@@ -39,3 +39,5 @@ Day 3:- Creating a basic UI for my application.
 Day 4:- Connecting server from the database and Creating Schemas.
 
 Day 5:- Deploying the Frontend on cloudflare and Backend on Render.
+
+Day 6:- Styling Landing Page.  
