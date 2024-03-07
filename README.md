@@ -41,3 +41,6 @@ Day 4:- Connecting server from the database and Creating Schemas.
 Day 5:- Deploying the Frontend on cloudflare and Backend on Render.
 
 Day 6:- Styling Landing Page.  
+
+Day 7:- Creating Registration Page. 
+
