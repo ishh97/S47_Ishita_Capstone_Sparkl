@@ -22,7 +22,7 @@ function RegisterPage() {
           <label htmlFor="password">Password : </label>
           <input type="password" placeholder='Enter your password' />
         
-          <button type='submit'>Register</button>
+          <button type='submit' onClick={() => navigate('/login')}>Register</button>
         </div>
         <div>
 
