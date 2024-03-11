@@ -12,7 +12,7 @@ const watchListSchema = new mongoose.Schema({
     },
     type: String,
     coverImageURL: String,
-    summary: String,
+    genre:Array,
     wantTo: String,
     whereTo: {
         type: String,
