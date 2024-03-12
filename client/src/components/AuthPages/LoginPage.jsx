@@ -22,7 +22,7 @@ function LoginPage() {
           <label htmlFor="password">Password : </label>
           <input type="password" placeholder='Enter your password' />
         
-          <button type='submit'>Login</button>
+          <button type='submit' onClick={() => navigate('/home')}>Login</button>
         </div>
         <div>
 
