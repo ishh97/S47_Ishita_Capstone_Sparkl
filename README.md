@@ -24,9 +24,9 @@ Built-in blog: Share your thoughts, experiences, and memories with text and phot
 
 ## Deployed Link  
 
-Fronted Link :- [https://s47-ishita-capstone-sparkl.pages.dev]
+Fronted Link :- [https://sparkl.pages.dev/]
 
-Backend Link :- [https://s47-ishita-capstone-sparkl.onrender.com]
+Backend Link :- [https://sparkl.onrender.com/]
 
 ## Daily Plan
 
@@ -47,3 +47,4 @@ Day 7:- Creating Registration Page.
 Day 8:- Creating Login Page.
 
 Day 9:- Creating Navbar.  
+
