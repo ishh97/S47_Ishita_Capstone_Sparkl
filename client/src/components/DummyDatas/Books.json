@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Classic", "Coming-of-age"],
+        "wantTo": "read",
+        "fav": true
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Dystopian"],
+        "wantTo": "reading",
+        "fav": false
+    },
+    {
+        "id": 3,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Classic", "Romance"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 4,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Classic", "Romance"],
+        "wantTo": "already",
+        "fav": true
+    },
+    {
+        "id": 5,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Coming-of-age"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 6,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Adventure", "Epic"],
+        "wantTo": "reading",
+        "fav": false
+    },
+    {
+        "id": 7,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Fantasy"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 8,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Dystopian", "Young Adult"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 9,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Gothic", "Science Fiction"],
+        "wantTo": "already",
+        "fav": false
+    },
+    {
+        "id": 10,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Fantasy", "Epic"],
+        "wantTo": "reading",
+        "fav": true
+    },
+    {
+        "id": 11,
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Fantasy"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 12,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Dystopian", "Science Fiction"],
+        "wantTo": "reading",
+        "fav": false
+    },
+    {
+        "id": 13,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Epic"],
+        "wantTo": "read",
+        "fav": true
+    },
+    {
+        "id": 14,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Dystopian", "Science Fiction"],
+        "wantTo": "read",
+        "fav": false
+    },
+    {
+        "id": 15,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+        "genres": ["Gothic", "Philosophical"],
+        "wantTo": "reading",
+        "fav": false
+    },
+    {
+      "id": 16,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "already",
+      "fav": false,
+      "genres": ["Magical Realism", "Family Saga"]
+  },
+  {
+      "id": 17,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "read",
+      "fav": false,
+      "genres": ["Dystopian", "Post-apocalyptic"]
+  },
+  {
+      "id": 18,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "reading",
+      "fav": false,
+      "genres": ["Gothic", "Romance"]
+  },
+  {
+      "id": 19,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "read",
+      "fav": false,
+      "genres": ["Philosophical", "Adventure"]
+  },
+  {
+      "id": 20,
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "already",
+      "fav": false,
+      "genres": ["Fantasy"]
+  },
+  {
+      "id": 21,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "coverImageURL": "https://miro.medium.com/v2/resize:fit:1400/1*7bJprntwV1Fxtv72bdzmkA.jpeg",
+      "wantTo": "reading",
+      "fav": true,
+      "genres": ["Horror", "Psychological"]
+  }
+      ]
+       
+    
