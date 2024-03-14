@@ -16,7 +16,7 @@ const watchListSchema = new mongoose.Schema({
     wantTo: String,
     whereTo: {
         type: String,
-        enum: ["Netflix", "Amazon Prime", "Hulu", "Disney+", "Other"],
+        enum: ["Netflix", "Amazon Prime", "Hulu", "Disney+", "HBO Max", "Other"],
         default: "Other"
     },
     fav: {
