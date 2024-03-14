@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "title": "Stranger Things",
+        "type": "TV Series",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Super Natural"
+        ],
+        "wantTo": "watch",
+        "whereTo": "Netflix",
+        "fav": true
+    },
+    {
+        "id": 2,
+        "title": "The Godfather",
+        "type": "Movie",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "wantTo": "watch later",
+        "whereTo": "Other",
+        "fav": false
+    },
+    {
+        "id": 3,
+        "title": "The Shawshank Redemption",
+        "type": "Movie",
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "wantTo": "watched",
+        "whereTo": "Other",
+        "fav": true
+    },
+    {
+        "id": 4,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "type": "Movie",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "wantTo": "watched",
+        "whereTo": "HBO Max",
+        "fav": true
+    },
+    {
+        "id": 5,
+        "title": "Fight Club",
+        "type": "Movie",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "wantTo": "watched",
+        "whereTo": "Other",
+        "fav": false
+    },
+    {
+        "id": 6,
+        "title": "Spirited Away",
+        "type": "Movie",
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "genre": [
+            "Animation",
+            "Fantasy"
+        ],
+        "wantTo": "watch later",
+        "whereTo": "HBO Max",
+        "fav": true
+    },
+    {
+        "id": 7,
+        "title": "Good Will Hunting",
+        "type": "Movie",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "watched",
+        "whereTo": "Other",
+        "fav": false
+    },
+    {
+        "id": 8,
+        "title": "The Office (US)",
+        "type": "TV Series",
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "genre": [
+            "Comedy",
+            "Mockumentary"
+        ],
+        "wantTo": "rewatch",
+        "whereTo": "Netflix",
+        "fav": true
+    },
+    {
+        "id": 9,
+        "title": "Breaking Bad",
+        "type": "TV Series",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "wantTo": "watched",
+        "whereTo": "Netflix",
+        "fav": true
+    },
+    {
+        "id": 10,
+        "title": "Friends",
+        "type": "TV Series",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "wantTo": "watch later",
+        "whereTo": "HBO Max",
+        "fav": false
+    },
+    {
+        "id": 11,
+        "title": "The Princess Bride",
+        "type": "Movie",
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Romance"
+        ],
+        "wantTo": "watched",
+        "whereTo": "Disney+",
+        "fav": false
+    },
+    {
+        "id": 12,
+        "title": "Inception",
+        "type": "Movie",
+        "genre": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "watched",
+        "whereTo": "Other",
+        "fav": true
+    },
+    {
+        "id": 13,
+        "title": "Parasite",
+        "type": "Movie",
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "wantTo": "watched",
+        "whereTo": "Hulu",
+        "fav": true
+    },
+    {
+        "id": 14,
+        "title": "The Dark Knight",
+        "type": "Movie",
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "wantTo": "rewatch",
+        "whereTo": "Other",
+        "fav": true
+    },
+    {
+        "id": 15,
+        "title": "Pulp Fiction",
+        "type": "Movie",
+        "genre": [
+            "Crime",
+            "Comedy",
+            "Thriller"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "recommend",
+        "whereTo": "Netflix",
+        "fav": false
+    },
+    {
+        "id": 16,
+        "title": "The Matrix",
+        "type": "Movie",
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "own",
+        "whereTo": "Other",
+        "fav": false
+    },
+    {
+        "id": 17,
+        "title": "Game of Thrones",
+        "type": "TV Series",
+        "genre": [
+            "Drama",
+            "Fantasy"
+        ],
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "wantTo": "watched",
+        "whereTo": "HBO Max",
+        "fav": true
+    },
+    {
+        "id": 18,
+        "title": "Black Mirror",
+        "type": "TV Series",
+        "genre": [
+            "Drama",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "watch later",
+        "whereTo": "Netflix",
+        "fav": false
+    },
+    {
+        "id": 19,
+        "title": "The Handmaid's Tale",
+        "type": "TV Series",
+        "genre": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "watch later",
+        "whereTo": "Hulu",
+        "fav": false
+    },
+    {
+        "id": 20,
+        "title": "Sherlock",
+        "type": "TV Series",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "coverImageURL": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "wantTo": "rewatch",
+        "whereTo": "Netflix",
+        "fav": true
+    },
+    {
+        "id": 21,
+        "title": "Rick and Morty",
+        "type": "TV Series",
+        "genre": [
+            "Animation",
+            "Adult Animation",
+            "Comedy"
+        ],
+        "coverImageURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg",
+        "wantTo": "watch later",
+        "whereTo": "Other",
+        "fav": true
+    }
+]
