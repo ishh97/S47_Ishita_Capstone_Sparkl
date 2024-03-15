@@ -1,0 +1,127 @@
+[
+    {
+        "id": "1",
+        "title": "First Blog",
+        "content": "This is my first blog",
+        "image": [
+          "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg"
+        ],
+        "tags": [
+          "#first",
+          "#blog"
+        ],
+        "createdDate": "2024-03-04T12:00:00.000Z",
+        "updatedDate": "2024-03-04T12:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "title": "Sourdough Adventures: Finally Nailed It!",
+        "content": "After weeks of failed attempts, I finally managed to bake a perfect sourdough loaf! Sharing my journey and the winning recipe in this post.",
+        "image": [
+        "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+        "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg"  
+        ],
+        "tags": [
+        "#sourdough",
+        "#baking",
+        "#bread"
+        ],
+        "createdDate": "2024-03-10T10:30:00.000Z",
+        "updatedDate": "2024-03-10T10:30:00.000Z"
+        },
+        {
+            "id": "3",
+            "title": "Hiking Amongst Giants: A Day Trip to Redwood National Park",
+            "content": "Towering redwoods, fern-covered trails, and fresh forest air. Read about my adventure exploring the awe-inspiring Redwood National Park.",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg"  
+            ],
+            "tags": [
+              "#redwoods",
+              "#hiking",
+              "#nationalpark"
+            ],
+            "createdDate": "2024-03-08T12:00:00.000Z",
+            "updatedDate": "2024-03-08T12:00:00.000Z"
+          },{
+            "id": "4",
+            "title": "Bonjour! My Journey Learning French (and Why You Should Too)",
+            "content": "Embarking on the challenge of learning a new language can be daunting, but also incredibly rewarding. Share my experiences with French and tips to get you started!",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg" 
+            ],
+            "tags": [
+              "#french",
+              "#languagelearning",
+              "#travel"
+            ],
+            "createdDate": "2024-03-02T12:00:00.000Z",
+            "updatedDate": "2024-03-02T12:00:00.000Z"
+          }
+          ,{
+            "id": "5",
+            "title": "Attract Feathered Friends: Building a Simple DIY Bird Feeder",
+            "content": "Want to attract beautiful birds to your backyard? This easy-to-follow guide shows you how to build a charming DIY bird feeder using recycled materials.",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg"  
+            ],
+            "tags": [
+              "#birds",
+              "#diy",
+              "#gardening"
+            ],
+            "createdDate": "2024-03-06T12:00:00.000Z",
+            "updatedDate": "2024-03-06T12:00:00.000Z"
+          }, {
+            "id": "6",
+            "title": "A Review: [Book Title] by [Author Name]",
+            "content": "Dive into my review of [Book Title], a captivating novel by [Author Name]. Discussing the plot, characters, and overall themes.",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg" 
+            ],
+            "tags": [
+              "#bookreview",
+              "#books",
+              "[Genre]" 
+            ],
+            "createdDate": "2024-03-09T12:00:00.000Z",
+            "updatedDate": "2024-03-09T12:00:00.000Z"
+          }, {
+            "id": "7",
+            "title": "Looking Up: A Beginner's Guide to identifying Constellations",
+            "content": "Uncover the mysteries of the night sky! This guide introduces you to some of the most recognizable constellations and tips for stargazing.",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg"  
+            ],
+            "tags": [
+              "#constellations",
+              "#astronomy",
+              "#space"
+            ],
+            "createdDate": "2024-03-05T12:00:00.000Z",
+            "updatedDate": "2024-03-05T12:00:00.000Z"
+          }, {
+            "id": "8",
+            "title": "Must-See Movie: [Movie Title] - A Review",
+            "content": "Highly recommend checking out [Movie Title]! This review dives into the plot, acting, and why it's a must-watch for [Genre] fans.",
+            "image": [
+              "https://i.pinimg.com/474x/eb/58/72/eb587281939caa81e0beacc13f3223ec.jpg",
+          "https://i.pinimg.com/474x/46/cb/fe/46cbfead759f562cbae700e67df82bb7.jpg" 
+            ],
+            "tags": [
+              "#movienight",
+              "#moviereview",
+              "[Genre]"  
+            ],
+            "createdDate": "2024-03-11T12:00:00.000Z",
+            "updatedDate": "2024-03-15T12:00:00.000Z"
+        }
+          
+          
+]
