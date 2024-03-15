@@ -51,3 +51,5 @@ Day 9:- Creating Navbar.
 Day 10:- Creating Book Shelf Component with Dummy data.
 
 Day 11:- Creating Watch List Component with Dummy data.  
+
+Day 12:- Creating Blogs Component with Dummy Data.  
