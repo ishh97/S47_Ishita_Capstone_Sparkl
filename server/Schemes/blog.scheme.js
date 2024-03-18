@@ -12,10 +12,7 @@ const blogSchema = new mongoose.Schema({
         required: true
     },
     content: String,
-    image: [{
-        type: Schema.Types.ObjectId,
-        ref: 'Image' 
-    }],
+    image: [],
     tags: [String],
     createdDate: {
         type: Date,
