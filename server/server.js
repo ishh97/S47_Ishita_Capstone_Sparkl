@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import cors from "cors"
 
 import UserModal from "./Schemes/user.scheme.js"
 import BookModal from "./Schemes/books.scheme.js"
@@ -10,6 +11,7 @@ import WatchListModal from "./Schemes/watchlist.scheme.js"
 dotenv.config();
 const app =express()
 app.use(express.json());
+app.use(cors())
 
 mongoose.connect(process.env.MONGOOSE_CONNECTION, {dbName:"SparklCapstone"})
   .then(() => {

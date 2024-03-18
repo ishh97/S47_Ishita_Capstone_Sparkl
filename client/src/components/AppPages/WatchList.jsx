@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../Navbar.jsx';
-import Watch from '../DummyDatas/WatchList.json';
+// import Watch from '../DummyDatas/WatchList.json';
 import '../Styles/Watchlist.css';
 import { useNavigate } from 'react-router-dom';
+import axios from "axios"
 
 function WatchListPage() {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPlatform, setSelectedPlatform] = useState('All');
+  const [datas, setDatas] = useState([]);
 
   const handleSearchInputChange = (e) => {
     setSearchQuery(e.target.value);
@@ -16,8 +18,14 @@ function WatchListPage() {
   const handlePlatformChange = (e) => {
     setSelectedPlatform(e.target.value);
   };
+  
+  useEffect(() => {
+    axios.get('http://localhost:2004/watchList')
+      .then(datas => setDatas(datas.data))
+      .catch(err => console.log(err))
+  }, [])
 
-  const filteredWatchList = Watch.filter((item) =>
+  const filteredWatchList = datas.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase())
   ).filter((item) => selectedPlatform === 'All' || item.whereTo === selectedPlatform);
 
@@ -48,7 +56,7 @@ function WatchListPage() {
       <div className="watchList">
         {filteredWatchList.map((list) => {
           return (
-            <div key={list.id} className="watchItem">
+            <div key={list._id} className="watchItem">
               <div>
                 <img
                   src={list.coverImageURL}
@@ -58,12 +66,13 @@ function WatchListPage() {
               </div>
               <div className='watchTitle'>{list.title}</div>
               <div className='watchGenreDiv'>
-              {list.genre.map((genres, id) => (
-               <p key={id} className='watchGenre'>{genres}</p>
+              {Array.isArray(list.genre) && list.genre.map((genres, _id) => (
+               <p key={_id} className='watchGenre'>{genres}</p>
               ))}
               </div>
               <p>Where to watch : {list.whereTo}</p>
               <button className='remove'>Remove</button>
+              <button className='edit'>Edit</button>
             </div>
           );
         })}

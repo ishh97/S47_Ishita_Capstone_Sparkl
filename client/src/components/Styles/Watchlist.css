@@ -68,7 +68,7 @@
     width: 4rem;
     background-color: white;
 }
-.remove{
+.remove, .edit{
     border: 1px solid black;
     height: 1.5rem;
     width: 4rem;

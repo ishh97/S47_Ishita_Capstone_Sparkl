@@ -1,12 +1,19 @@
-import React from 'react'
+import React ,{useState, useEffect}from 'react'
 import Navbar from '../Navbar'
-import Books from '../DummyDatas/Books.json'
+// import Books from '../DummyDatas/Books.json'
 import '../Styles/BookShelf.css'
 import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 
 function BookShelf() {
 
     const navigate = useNavigate();
+    const [Books, setBooks] = useState([]);
+    useEffect(() => {
+      axios.get('http://localhost:2004/books')
+        .then(books => setBooks(books.data))
+        .catch(err => console.log(err))
+    }, [])
   return (
     <>
       <Navbar />
