@@ -20,7 +20,7 @@ function WatchListPage() {
   };
   
   useEffect(() => {
-    axios.get('http://localhost:2004/watchList')
+    axios.get('https://sparkl.onrender.com/watchList')
       .then(datas => setDatas(datas.data))
       .catch(err => console.log(err))
   }, [])

@@ -11,7 +11,7 @@ function BlogsPage() {
   const [Blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:2004/blog')
+    axios.get('https://sparkl.onrender.com/blog')
       .then(blogs =>  setBlogs(blogs.data))
       .catch(err => console.log(err))
   }, [])

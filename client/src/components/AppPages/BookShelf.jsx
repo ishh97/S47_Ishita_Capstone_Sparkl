@@ -10,7 +10,7 @@ function BookShelf() {
     const navigate = useNavigate();
     const [Books, setBooks] = useState([]);
     useEffect(() => {
-      axios.get('http://localhost:2004/books')
+      axios.get('https://sparkl.onrender.com/books')
         .then(books => setBooks(books.data))
         .catch(err => console.log(err))
     }, [])
