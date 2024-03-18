@@ -66,7 +66,7 @@ function WatchListPage() {
               </div>
               <div className='watchTitle'>{list.title}</div>
               <div className='watchGenreDiv'>
-              {list.genre && list.genre.map((genres, _id) => (
+              {Array.isArray(list.genre) && list.genre.map((genres, _id) => (
                <p key={_id} className='watchGenre'>{genres}</p>
               ))}
               </div>

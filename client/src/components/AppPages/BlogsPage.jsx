@@ -15,7 +15,7 @@ function BlogsPage() {
       .then(blogs =>  setBlogs(blogs.data))
       .catch(err => console.log(err))
   }, [])
-  console.log(Blogs);
+  // console.log(Blogs);
   function formatDate(dateString) {
     const formattedDate = new Date(dateString);
     return formattedDate.toLocaleDateString('en-US', {
