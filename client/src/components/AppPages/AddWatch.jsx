@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function AddWatch() {
   const [searchTerm, setSearchTerm] = useState('');
-
+  const [searchResult, setSearchResult] = useState(null);
   const [count, setCount] = useState(1)
 
   const options = {
