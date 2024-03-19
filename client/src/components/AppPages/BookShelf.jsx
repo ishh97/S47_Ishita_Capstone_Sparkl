@@ -40,7 +40,7 @@ function BookShelf() {
              <p className='bookAuthor'>{book.author}</p>
              
              <div className='bookGenreDiv'>
-              {book.genres.map((genre, id) => (
+              {book.genres && book.genres.map((genre, id) => (
                <p key={id} className='bookGenre'>{genre}</p>
               ))}
               </div>
@@ -82,7 +82,7 @@ function BookShelf() {
              <p className='bookAuthor'>{book.author}</p>
              
              <div className='bookGenreDiv'>
-              {book.genres.map((genre, id) => (
+              {book.genres && book.genres.map((genre, id) => (
                <p key={id} className='bookGenre'>{genre}</p>
               ))}
               </div>
