@@ -6,10 +6,6 @@ function AddBooks() {
 
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
-  const [title, setTitle] = useState('');
-  const [coverImageURL, setCoverImageURL] = useState('');
-  const [userId, setUserId] = useState();
-  const [author, setAuthor] = useState('');
   const navigate = useNavigate();
 
   const searchBooks = async () => {

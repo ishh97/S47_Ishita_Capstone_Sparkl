@@ -39,7 +39,7 @@ function AddWatch() {
     try {
         setTitle(searchResult.Title)
         setCoverImageURL(searchResult.Poster)
-        if(searchResult.Type == "s  eries") {
+        if(searchResult.Type == "series") {
             setType("Series")
         }
         else{
@@ -51,7 +51,7 @@ function AddWatch() {
         console.log(type)
         console.log(userId)
 
-        const response =  await axios.post('http://localhost:2004/watchList', {userId, title, coverImageURL, type});
+        const response =  await axios.post('https://sparkl.onrender.com/watchList', {userId, title, coverImageURL, type});
         console.log(response);
     } catch (error) {
         console.error(error);
