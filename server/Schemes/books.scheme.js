@@ -15,8 +15,8 @@ const bookSchema = new mongoose.Schema({
     genres :Array,
     wantTo: {
         type: String,
-        enum: ["wantToRead", "currentlyReading", "read", "none"],
-        default: "none"
+        enum: ["read", "already", "reading"],
+        default: "read"
     },
     fav: {
         type: Boolean,
