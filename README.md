@@ -53,3 +53,7 @@ Day 10:- Creating Book Shelf Component with Dummy data.
 Day 11:- Creating Watch List Component with Dummy data.  
 
 Day 12:- Creating Blogs Component with Dummy Data.  
+
+Day 13 :- Fetching Data from API and Displaying it in Components.
+
+Day 14 :- Adding Search Functionality in Bookshelf and Watchlist component.  

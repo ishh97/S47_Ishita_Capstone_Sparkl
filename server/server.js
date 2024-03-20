@@ -49,6 +49,20 @@ app.get('/watchList', (req, res) => {
   .catch(err => res.json(err))
 })
 
+app.post('/watchList', (req, res) => {
+  WatchListModal.create(req.body)
+      .then(item => res.json(item))
+      .catch(err => res.status(400).json(err));
+      console.log(req.body);
+});
+
+app.post('/books', (req, res) => {
+  BookModal.create(req.body)
+      .then(item => res.json(item))
+      .catch(err => res.status(400).json(err));
+      console.log(req.body);
+});
+
 app.listen(2004, () => {
     console.log('🚀 Server is running on port 2004 !!!');
 });
