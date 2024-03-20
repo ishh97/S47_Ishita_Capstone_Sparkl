@@ -11,6 +11,7 @@ import WatchListPage from './components/AppPages/WatchList.jsx'
 import Blog from './components/AppPages/Blog.jsx'
 import BlogsPage from './components/AppPages/BlogsPage.jsx'
 import AddWatch from './components/AppPages/AddWatch.jsx'
+import AddBookForm from './components/AppPages/AddBookForm.jsx'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/blogs' element = {<BlogsPage/>} />
         <Route path='/blogs/:id' element={<Blog/>}/>
         <Route path='/watchlist/add' element={<AddWatch/>}/>
+        <Route path='/books/add/form' element={<AddBookForm/>}/>
       </Routes>
     </>
   )

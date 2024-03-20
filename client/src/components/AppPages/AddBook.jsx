@@ -6,6 +6,11 @@ function AddBooks() {
 
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
+  const [title, setTitle] = useState('');
+  const [coverImageURL, setCoverImageURL] = useState('');
+  const [userId, setUserId] = useState();
+  const [author, setAuthor] = useState('');
+  const navigate = useNavigate();
 
   const searchBooks = async () => {
     try {
@@ -26,7 +31,10 @@ function AddBooks() {
     searchBooks();
   };
 
-  
+  const handleAdd =(book) => {
+
+    navigate('/books/add/form', {state :{book}})
+  }
   
   return (
     <div>
@@ -42,12 +50,13 @@ function AddBooks() {
       <div>
         {results.map((book) => (
           <div key={book.key}>
+            {book.cover_i && 
             <img
               src={`https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`}
               alt={book.title}
-            />
+            />}
             <h3>{book.title}</h3>
-            <button>Add</button>
+            <button onClick={() => handleAdd(book)}>Add</button>
           </div>
         ))}
       </div>
