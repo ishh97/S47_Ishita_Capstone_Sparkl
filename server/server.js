@@ -63,6 +63,12 @@ app.post('/books', (req, res) => {
       console.log(req.body);
 });
 
+app.post('/blog', (req, res) => {
+  BlogModal.create(req.body)
+      .then(item => res.json(item))
+      .catch(err => res.status(400).json(err));
+      console.log(req.body);
+ })
 app.listen(2004, () => {
     console.log('🚀 Server is running on port 2004 !!!');
 });

@@ -12,6 +12,7 @@ import Blog from './components/AppPages/Blog.jsx'
 import BlogsPage from './components/AppPages/BlogsPage.jsx'
 import AddWatch from './components/AppPages/AddWatch.jsx'
 import AddBookForm from './components/AppPages/AddBookForm.jsx'
+import AddBlog  from './components/AppPages/AddBlog.jsx'  
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
         <Route path='/blogs/:id' element={<Blog/>}/>
         <Route path='/watchlist/add' element={<AddWatch/>}/>
         <Route path='/books/add/form' element={<AddBookForm/>}/>
+        <Route path = 'blogs/add' element={<AddBlog/>} />
+
       </Routes>
     </>
   )
